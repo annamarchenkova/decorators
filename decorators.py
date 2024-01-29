@@ -3,7 +3,7 @@ from functools import wraps
 
 def timer(func):
   """
-  Mesures tikme of function execution. Can be applied to any function that takes 
+  Mesures time of function execution. Can be applied to any function that takes 
   any number of arguments and returns any value. Uses the functools.wraps decorator to 
   preserve the name and docstring of the original function.
   """
